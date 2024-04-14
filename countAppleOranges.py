@@ -19,6 +19,12 @@ import sys
 
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
+    #Optimised code
+    # apple_count = sum(1 for apple in apples if s <= apple + a <= t)
+    # orange_count = sum(1 for orange in oranges if s <= orange + b <= t)
+    # print(apple_count)
+    # print(orange_count)
+    
     apple_count = 0
     orange_count = 0
 
